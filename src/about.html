@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>PEC 3 - Herramientas HTML y CSS II</title>
+  </head>
+  <body>
+    <include src="./views/header.html"></include>
+    <section class="bg-white min-h-full">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-6xl">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Formulario de contacto</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Complete el siguiente formulario y un miembro de nuestra equipo se pondrá en contacto contigo para darte toda la información que necesites sobre nuestro club de ajedrez.</p>
+            <form action="#" class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-3 pt-2">
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nombre</label>
+                    <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required>
+                </div>
+                <div class="w-full md:w-1/2 px-3 pt-2">
+                    <label for="surname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Apellidos</label>
+                    <input type="text" id="surname" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required>
+                </div>
+                <div class="w-full px-3 pt-2">
+                    <label for="mail" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email (optional)</label>
+                    <input type="mail" id="mail" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                </div>
+                <div class="w-full md:w-2/3 px-3 pt-2">
+                    <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Dirección</label>
+                    <input type="text" id="address" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="postal" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Código Postal</label>
+                    <input type="text" id="postal" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="country" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">País</label>
+                    <select type="text" id="country" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                        <option>España</option>
+                        <option>Italia</option>
+                        <option>Portugal</option>
+                    </select>
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="ccaa" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Comunidad Autónoma</label>
+                    <select type="text" id="ccaa" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                        <option>Canarias</option>
+                        <option>Madrid</option>
+                        <option>Barcelona</option>
+                    </select>
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="province" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Provincia</label>
+                    <select type="text" id="province" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                        <option>SC de Tenerife</option>
+                        <option>Las Palmas de Gran Canaria</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+      </section>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+</html>

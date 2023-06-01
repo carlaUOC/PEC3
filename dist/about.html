@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="index.52945c01.css" rel="stylesheet">
+    <title>PEC 3 - Herramientas HTML y CSS II</title>
+  </head>
+  <body>
+    <nav class="bg-ppal">
+  <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center">
+        <img src="icons8-reina-96.9c97cd0e.png" class="h-8 mr-3" alt="Logo">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Club Adeje Capitol</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-indigo-600 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="index.html" class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black dark:hover:text-black dark:hover:text-white md:dark:hover:bg-transparent">Inicio</a>
+        </li>
+        <li>
+          <a href="about.html" class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black dark:hover:text-black dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <section class="bg-white min-h-full">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-6xl">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Formulario de contacto</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Complete el siguiente formulario y un miembro de nuestra equipo se pondrá en contacto contigo para darte toda la información que necesites sobre nuestro club de ajedrez.</p>
+            <form action="#" class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-3 pt-2">
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nombre</label>
+                    <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required="">
+                </div>
+                <div class="w-full md:w-1/2 px-3 pt-2">
+                    <label for="surname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Apellidos</label>
+                    <input type="text" id="surname" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required="">
+                </div>
+                <div class="w-full px-3 pt-2">
+                    <label for="mail" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email (optional)</label>
+                    <input type="mail" id="mail" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                </div>
+                <div class="w-full md:w-2/3 px-3 pt-2">
+                    <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Dirección</label>
+                    <input type="text" id="address" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="postal" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Código Postal</label>
+                    <input type="text" id="postal" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="country" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">País</label>
+                    <select type="text" id="country" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                        <option>España</option>
+                        <option>Italia</option>
+                        <option>Portugal</option>
+                    </select>
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="ccaa" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Comunidad Autónoma</label>
+                    <select type="text" id="ccaa" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                        <option>Canarias</option>
+                        <option>Madrid</option>
+                        <option>Barcelona</option>
+                    </select>
+                </div>
+                <div class="w-full md:w-1/3 px-3 pt-2">
+                    <label for="province" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Provincia</label>
+                    <select type="text" id="province" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
+                        <option>SC de Tenerife</option>
+                        <option>Las Palmas de Gran Canaria</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+      </section>
+    <footer class="bg-ppal">
+    <div class="w-full mx-auto p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm sm:text-center text-white">© UOC <a href="https://www.uoc.edu/portal/es/index.html" class="hover:underline">Universitat Oberta de Catalunya</a>
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium  text-white sm:mt-0">
+        <li>
+            <a href="index.html" class="mr-4 hover:underline md:mr-6 ">Inicio</a>
+        </li>
+        <li>
+            <a href="about.html" class="mr-4 hover:underline md:mr-6">Contacto</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+    <script src="index.abdb1b70.js" defer=""></script><!-- do not remove this line! -->
+</body>
+</html>

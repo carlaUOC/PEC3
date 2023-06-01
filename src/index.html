@@ -1,26 +1,56 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <link href="../dist/output.css" rel="stylesheet">
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+    <include src="./views/header.html"></include>
+    <div class="flex flex-col justify-center items-center pt-14">
+        <div class="flex flex-col justify-center items-center">
+            <img img class="w-40 md:w-32 lg:w-1/4"  src="./assets/images/ajedrez.png" />
+            <hr>
+            <blockquote class="mx-24 text-justify text-xl italic font-semibold pt-14">
+                <h2 class="text-4xl font-bold text-center">El objetivo del juego es dar jaque mate.</h2>
+                <br>
+                <p>El ajedrez es un juego de tablero entre dos contrincantes en el que cada uno dispone al inicio de dieciséis piezas móviles que se colocan sobre un tablero dividido en sesenta y cuatro casillas o escaques. En su versión de competición, está considerado como un deporte, aunque en la actualidad tiene claramente una dimensión social, educativa y terapéutica.</p>
+                <br>
+                <p>Este juego, tal como se conoce actualmente, surgió en Europa durante el siglo xv, como evolución del juego persa shatranj, que a su vez surgió a partir del más antiguo chaturanga, que se practicaba en la India en el siglo vi. La tradición de organizar competiciones de ajedrez empezó en el siglo xvi. El primer campeonato oficial del mundo de ajedrez se organizó en 1886. El ajedrez está considerado por el Comité Olímpico Internacional como un deporte, y las competiciones internacionales están reguladas por la FIDE. Los jugadores compiten a nivel individual en diferentes torneos, aunque también existen competiciones por equipos, siendo una de las más importantes las Olimpiadas de ajedrez.</p>
+            </blockquote>
+        </div>
+        <hr>
+        <div class="flex flex-col justify-center items-center">
+            <blockquote class="mx-24 text-justify text-xl italic font-semibold pt-14">
+                <h2 class="text-4xl font-bold text-center">Los siete pilares de la estrategia en ajedrez</h2>
+                <ul class="text-center pt-2">
+                    <li>Tipos de centro</li>
+                    <li>Estructuras de peones</li>
+                    <li>Casillas débiles</li>
+                    <li>Puntos de ruptura</li>
+                    <li>Disposición de las piezas</li>
+                    <li>Situación de los reyes</li>
+                </ul>
+            </blockquote>
+            <hr>
+            <blockquote class="mx-24 text-justify text-xl italic font-semibold pt-14">
+                <p class="text-center">Este deporte también enseña a planificar y anticiparse a los movimientos del contrincante, al mismo tiempo que potencia el autocontrol y el buen juicio. Asimismo, mover las piezas por el tablero es una buena terapia motora y favorece la coordinación entre movimiento pensado y realizado.</p>
+            </blockquote>
+        </div>
+        <div class="flex flex-col justify-center items-center pt-2">
+            <img class="w-40 md:w-32 lg:w-1/4" src="./assets/images/jugador-de-ajedrez.png" />
+            <hr>
+            <blockquote class="mx-24 text-justify text-xl italic font-semibold p-8">
+                <p class="text-center">Este deporte también enseña a planificar y anticiparse a los movimientos del contrincante, al mismo tiempo que potencia el autocontrol y el buen juicio. Asimismo, mover las piezas por el tablero es una buena terapia motora y favorece la coordinación entre movimiento pensado y realizado.</p>
+            </b>
+            </blockquote>
+        </div>
     </div>
+    <!--
+    <h1 class="text-4xl text-blue-500 font-bold">Hola Mundo!</h1>
+    <include src="./button.html" locals='{
+        "text": "Button"
+    }'></include>-->
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>

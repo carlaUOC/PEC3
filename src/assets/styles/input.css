@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-ppal {
+        @apply bg-indigo-600 border-gray-200 text-white;
+    }
+    .btn-primay {
+        @apply bg-indigo-600 mx-3 mt-4 p-1 text-md font-medium text-center text-white;
+    }
+}
